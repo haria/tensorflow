@@ -407,7 +407,7 @@ you invoke the bazel build command.
 From the root of your source tree, run:
 
 ```bash
-$ bazel build -c opt --config=cuda //tensorflow/cc:tutorials_example_trainer\
+$ bazel build -c opt --config=cuda //tensorflow/cc:tutorials_example_trainer
 $ bazel build -c opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
 
 $ bazel-bin/tensorflow/cc/tutorials_example_trainer --use_gpu
